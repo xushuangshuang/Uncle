@@ -1,8 +1,78 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
+    android:background="@color/background_material_dark"
+    android:orientation="vertical"
     android:layout_height="match_parent">
 
+    <FrameLayout
+
+        android:id="@+id/main_fragment"
+        android:layout_width="80dp"
+        android:layout_height="80dp"></FrameLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:layout_width="85dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bottom_find"
+                android:background="@drawable/tab_icon_find_normal"
+                android:layout_width="50dp"
+                android:paddingLeft="40dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:gravity="bottom"
+            android:layout_width="85dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bottom_home"
+                android:background="@drawable/tab_icon_home_normal"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:gravity="bottom"
+            android:layout_width="85dp"
+            android:layout_height="match_parent">
 
 
+            <ImageView
+                android:id="@+id/bottom_merchant"
+                android:background="@drawable/tab_icon_merchant_normal"
+                android:layout_width="50dp"
+                android:layout_height="50dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingLeft="10dp"
+            android:gravity="bottom"
+            android:layout_width="85dp"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/bottom_myself"
+                android:background="@drawable/tab_icon_myself_normal"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom" />
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>
